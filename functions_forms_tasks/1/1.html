@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 04.02.2016</title>
+</head>
+<body>
+<h2>Задание 1</h2>
+<p> Создать форму с двумя элементами textarea. При отправке формы скрипт должен выдавать только те слова,которые есть и в первом, и во втором поле ввода. <br> Реализацию этой логики необходим поместить в функцию getCommonWords($a, $b), которая будет возвращать массив с общими словами.</p>
+
+<form name="Double" action="/myprojects/functions_forms_tasks/1/1.php" method="post">
+
+    <p><strong> Введите Ваш текст: </strong><br>
+        <textarea name="textarea1" placeholder="Ваш текст" style="width: 450px; height: 200px;" wrap="soft"></textarea></p>
+    <p><strong> Введите текст для сравнения: </strong><br>
+        <textarea name="textarea2" placeholder="Текст для сравнения" style="width: 450px; height: 200px;" wrap="soft"></textarea></p>
+
+    <p>
+        <input id="Double" value="Сравнить" type="submit">
+    </p>
+
+</form>
+</body>
+</html>
