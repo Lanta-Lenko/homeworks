@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<?php
+// $time = time();
+// setcookie('time', 'time2');
+
+?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 09.02.2016</title>
+</head>
+<body>
+<h2>Задание 1</h2>
+<p> Создать контактную форму. Сделать так, чтобы один посетитель не мог отправить форму больше 3 раз за одну минуту.</p>
+
+<form name="form" action="1.php" method="post">
+    <p><strong> Введите Ваше имя: </strong><br>
+        <input placeholder="Ваше имя" style="width: 450px;"></p>
+    <p><strong> Введите Ваш текст: </strong><br>
+        <textarea name="textarea" placeholder="Ваш текст" style="width: 450px; height: 200px;" wrap="soft"></textarea></p>
+    <p>
+        <input id="form" value="Отправить" type="submit">
+    </p>
+</form>
+
+
+</body>
+</html>

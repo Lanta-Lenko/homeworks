@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 09.02.2016</title>
+</head>
+<body>
+<h2>Задание 3</h2>
+<p> Сделать выпадающий список со списком цветов (красный, синий, желтый и т.д.).<br>
+    После выбора цвета и отправки формы надо:<br>
+    1) запоминать цвет в cookies и выводить на странице текст Lorem Ipsum в выбранном цвете;<br>
+    2) если был выбран цвет, например, желтый, то при следующей загрузке страницы должен быть тоже выбран желтый в выпадающем списке.<br>
+    То есть, необходимо проставлять selected="selected" для выбранного пункта в выпадающем списке. То есть, сохранять выбранное значение при перезагрузке страницы.</p>
+
+
+
+
+<h3>Выбор цвета</h3>
+<form  action="3.php" method="post" >
+    <select name="color" style="width: 250px;">
+        <option label="Выбери цвет">Выбери цвет</option>
+        <option value="Желтый" style="background-color: #ffd706">Желтый</option>
+        <option value="Зеленый" style="background-color: #368016; color: white">Зеленый</option>
+        <option value="Красный" style="background-color: #c2121b; color: white">Красный</option>
+        <option value="Синий" style="background-color: #0d2566; color: white">Синий</option>
+        <option value="Фиолетовый" style="background-color: purple; color: white">Фиолетовый</option>
+    </select></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<!--
+<h3>Выбор цвета</h3>
+<form  action="3.php" method="post">
+<select name="color">
+    <option label="Выбери цвет">Выбери цвет</option>
+    <option value="Желтый" style="background-color: #ffd706">Желтый</option>
+    <option value="Зеленый" style="background-color: #368016; color: white">Зеленый</option>
+    <option value="Красный" style="background-color: #c2121b; color: white">Красный</option>
+    <option value="Синий" style="background-color: #0d2566; color: white">Синий</option>
+    <option value="Фиолетовый" style="background-color: purple; color: white">Фиолетовый</option>
+</select></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+-->
+
+
+</body>
+</html>
+
+
+
