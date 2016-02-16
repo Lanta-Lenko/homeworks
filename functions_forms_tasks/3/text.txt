@@ -1,3 +1,0 @@
-Текст 
-The PHP development team announces the immediate availability of PHP 5.6.17. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.
-For source downloads of PHP 5.6.17 please visit our downloads page. The list of changes is recorded in the ChangeLog.
